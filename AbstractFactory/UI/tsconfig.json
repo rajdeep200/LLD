@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",  // Required for Node.js
+    "target": "ES6",
+    "lib": ["ES6"],
+    "types": ["node"]      // Add this to support Node.js built-in modules
+  }
+}
